@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class PlayerInventoryKeys : MonoBehaviour
+public class PlayerInventoryKeysAndStars : MonoBehaviour
 {
 	private int starTotal = 0; 
 	private int keyTotal = 0; 
 
 	// a cached reference to an instance of class PlayerInventoryDisplay
-	private PlayerInventoryDisplayKeys playerInventoryDisplay;
+	private PlayerInventoryDisplayKeysStars playerInventoryDisplay;
 
 	//------------------------
 	// cache a reference to the PlayerInventoryDisplay object

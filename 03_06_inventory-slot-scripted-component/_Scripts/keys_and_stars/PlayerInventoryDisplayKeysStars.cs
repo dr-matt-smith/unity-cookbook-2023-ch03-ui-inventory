@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerInventoryKeys))] 
-public class PlayerInventoryDisplayKeys : MonoBehaviour
+public class PlayerInventoryDisplayKeysStars : MonoBehaviour
 {
     public PickupUI[] slotsStars = new PickupUI[1]; 
     public PickupUI[] slotsKeys = new PickupUI[1]; 
